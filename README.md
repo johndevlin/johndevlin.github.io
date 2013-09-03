@@ -1,2 +1,0 @@
-johndevlin.github.io
-====================
