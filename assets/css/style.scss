@@ -66,9 +66,10 @@ td { vertical-align: top; }
 /* Colours */
 
 $white: #ffffff;
-$darkgrey: #333333;
+$grey: #444444;
+$colour: #6f6fdf;
 
-$pcolour: $darkgrey;
+$pcolour: $grey;
 
 
 /* Margins */
@@ -114,7 +115,7 @@ html {
 }
 
 body {
-	color: $darkgrey;
+	color: $grey;
 	font-family: 'Helvetica Neue', Helvetica, Arial, san-serif; 
 	font-size: 1em;
 	line-height: 1;
@@ -122,7 +123,7 @@ body {
 }
 
 a {
-	color: $darkgrey;
+	color: $colour;
 	text-decoration: none;
 		transition: all 0.3s ease-in-out;
    -moz-transition: all 0.3s ease-in-out;
@@ -143,7 +144,7 @@ a {
 */
 
 p {
-	color: $darkgrey;
+	color: $grey;
 	font-family: 'Helvetica Neue', Helvetica, Arial, san-serif; 
 	font-size: 1em;
 	line-height: 1.5;
@@ -151,7 +152,7 @@ p {
 }
 
 p a {
-	color: #008ed6;
+	color: $colour;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -206,12 +207,17 @@ img {
 
 header {
 	padding: 20px 20px 0;
+	margin-bottom: 50px;
 }
 
 header h1 a {
 	display: block;
 	height: 0px;
 	width: 0px;
+}
+
+header h1 .entypo:before {
+	margin-right: 15px;
 }
 
 header nav {
@@ -228,6 +234,10 @@ div#main {
 	padding: 20px 20px 0;
 }
 
+#main p .entypo:before {
+	margin-right: 5px;
+}
+
 
 
 /**********
@@ -238,6 +248,30 @@ footer {
 	padding: 20px 20px 0;
 }
 
+
+
+/*********
+	Icons
+*/
+
+
+@font-face {
+    font-family: 'Icons';
+    src: url('/assets/typography/icons.eot');
+    src: url('/assets/typography/iconseot?#iefix') format('embedded-opentype'),
+         url('/assets/typography/icons.woff') format('woff'),
+         url('/assets/typography/icons.woff') format('truetype'),
+         url('/assets/typography/icons.ttf#Icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.entypo:before {
+	color: lighten($colour, 20%);;
+	content: attr(data-icon);
+	font-family: 'Icons';
+	text-shadow: 0 1px 0 lighten($colour, 10%);
+}
 
 
 	
