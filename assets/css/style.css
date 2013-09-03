@@ -317,6 +317,7 @@ footer {
   font-style: normal; }
 
 .entypo:before {
+  color: #3377dd;
   content: attr(data-icon);
   font-family: 'Icons'; }
 
