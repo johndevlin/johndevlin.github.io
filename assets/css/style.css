@@ -230,7 +230,7 @@ body {
   margin: 0; }
 
 a {
-  color: #6f6fdf;
+  color: #3377dd;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -255,7 +255,7 @@ p {
   margin: 0 0 10px; }
 
 p a {
-  color: #6f6fdf; }
+  color: #3377dd; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'ff-tisa-sans-web-pro', 'Helvetica Neue', Helvetica, Arial, san-serif;
@@ -317,10 +317,8 @@ footer {
   font-style: normal; }
 
 .entypo:before {
-  color: #c2c2f2;
   content: attr(data-icon);
-  font-family: 'Icons';
-  text-shadow: 0 1px 0 #9999e8; }
+  font-family: 'Icons'; }
 
 /****************
 	Media Queries 

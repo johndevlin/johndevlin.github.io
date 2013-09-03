@@ -67,7 +67,7 @@ td { vertical-align: top; }
 
 $white: #ffffff;
 $grey: #444444;
-$colour: #6f6fdf;
+$colour: #3377dd;
 
 $pcolour: $grey;
 
@@ -268,10 +268,8 @@ footer {
 }
 
 .entypo:before {
-	color: lighten($colour, 20%);;
 	content: attr(data-icon);
 	font-family: 'Icons';
-	text-shadow: 0 1px 0 lighten($colour, 10%);
 }
 
 
