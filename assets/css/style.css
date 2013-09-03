@@ -224,7 +224,7 @@ html {
 
 body {
   color: #444444;
-  font-family: 'Helvetica Neue', Helvetica, Arial, san-serif;
+  font-family: 'ff-tisa-sans-web-pro', 'Helvetica Neue', Helvetica, Arial, san-serif;
   font-size: 1em;
   line-height: 1;
   margin: 0; }
@@ -248,17 +248,18 @@ a {
 */
 p {
   color: #444444;
-  font-family: 'Helvetica Neue', Helvetica, Arial, san-serif;
+  font-family: 'ff-tisa-sans-web-pro', 'Helvetica Neue', Helvetica, Arial, san-serif;
   font-size: 1em;
   line-height: 1.5;
+  font-weight: 400;
   margin: 0 0 10px; }
 
 p a {
   color: #6f6fdf; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, san-serif;
-  font-weight: normal;
+  font-family: 'ff-tisa-sans-web-pro', 'Helvetica Neue', Helvetica, Arial, san-serif;
+  font-weight: 700;
   line-height: 1.5;
   margin: 0 0 20px;
   padding: 0; }
